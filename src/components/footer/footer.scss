@@ -1,0 +1,21 @@
+.footer-container {
+    background-color: #1a181e;
+    padding: 0 16px 18px;
+    position: relative;
+    .icon-container {
+        padding: 22px 8px;
+    }
+    .icon-box {
+        max-width: 72px;
+    }
+    .icon-text {
+        font-size: 12px;
+        text-align: center;
+        line-height: normal;
+        color: #ffffff;
+    }
+    .icon-text-sub {
+        font-size: 10px;
+        color: #ffffff;
+    }
+}

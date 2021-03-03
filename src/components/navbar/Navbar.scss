@@ -1,0 +1,26 @@
+.tab {
+    padding: 16px 16px;
+}
+.tab-container {
+    padding: 8px 16px 8px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+}
+.active {
+    border: solid 1px #e9f1f7;
+    background-color: #e9f1f7;
+    color: #146eb4;
+}
+.oval {
+    position: absolute;
+    top: 0px;
+    left: 6px;
+    width: 20px;
+    height: 20px;
+    padding: 1px 6px;
+    background-color: #e50b20;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 12px;
+}

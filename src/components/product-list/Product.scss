@@ -1,0 +1,97 @@
+.list-container {
+    .list {
+        margin: 16px;
+        .counter {
+            width: 27px;
+            height: 19px;
+            margin: 3px 0 2px 4px;
+            padding: 2px 6px 3px;
+            border-radius: 4px;
+            background-color: #146eb4;
+            color: #ffffff;
+            font-size: 14px;
+        }
+    }
+    .product-card {
+        .product-img-container {
+            position: relative;
+            .offer {
+                position: absolute;
+                bottom: -6px;
+                left: 14px;
+                padding: 3px 8px;
+                border-radius: 4px;
+                background-color: #ee741f;
+                color: #ffffff;
+                font-size: 12px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+            }
+        }
+        .product-details {
+            flex: 1;
+            margin-left: 12px;
+            .product-title {
+                color: #1a181e;
+                margin: 0px 0px 6px 0px;
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.29;
+                letter-spacing: normal;
+            }
+            .unit {
+                font-size: 12px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                color: #1a181e;
+            }
+            .price-and-action {
+                margin-top: 13px;
+                .price {
+                    font-size: 15px;
+                    color: #1a181e;
+                }
+                .fadded-price {
+                    color: #808080;
+                    font-size: 14px;
+                    text-decoration: line-through;
+                }
+            }
+            .box {
+                padding: 8px 12px;
+                border-radius: 4px;
+                border: solid 1px #146eb4;
+                .add-text{
+                    font-size: 14px;
+                    text-align: center;
+                    color: #146eb4;
+                    margin: 0px 6px;
+                }
+                .add-num {
+                    margin: 0px 6px;
+                    padding: 0px 6px;
+                    background-color: #146eb4;
+                    color: #ffffff;
+                    font-size: 14px;
+                  }
+              }
+        }
+        
+    }
+    .all-product {
+        margin: 18px 0 0 0;
+        padding: 5px 8px 5px 14px;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+        max-width: fit-content;
+        font-size: 14px;
+      }
+    
+}
