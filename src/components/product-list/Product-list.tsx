@@ -18,12 +18,16 @@ function ProductList(props: any) {
                     <ProductCard product={product} index={index} length={products.length}/>
                 )
             }
-            <div className="f-r-c-c"> 
-                <div className="all-product f-r-c-c">
-                    <div className="m-r-4">SEE ALL PRODUCTS</div>
-                    <img src={arrow} alt="arrow"/>
-                </div>
-            </div>
+            {
+                products.length > 1 ? 
+                    <div className="f-r-c-c"> 
+                        <div className="all-product f-r-c-c">
+                            <div className="m-r-4">SEE ALL PRODUCTS</div>
+                            <img src={arrow} alt="arrow"/>
+                        </div>
+                    </div> : null
+            }
+            
         </div>
     );
 }
