@@ -6,7 +6,7 @@ import './Product.scss';
 function ProductCard(props: any) {
     const {product, index, length} = props;
     return (
-        <div className={`f-r-s-c product-card ${index !== 0 ? "m-t-16": ""} ${index < length-1 ? "b-b-16": ""}`}>
+        <div className={`f-r-s-c product-card ${index !== 0 ? "m-t-16": ""} ${index < length-1 ? "divider": ""}`}>
             <div className="product-img-container">
                 <img src={product.imgSrc} alt="product"/>
                 { product.offer ? <div className="offer">{product.offer}</div> : null }

@@ -5,7 +5,7 @@ import tick from '../../assets/images/tick.svg';
 
 function StoreHeader() {
     return (
-        <div className="f-r-s-c m-lr-tb-16-12">
+        <div className="f-r-s-c m-x-16 m-y-12">
             <img src={store} alt="store"></img>
             <div className="f-c-c-s m-l-10">
                 <h1 className="store-name m-0">Mano Super Market</h1>
