@@ -1,10 +1,9 @@
-import React from 'react';
 import whatsapp from '../../assets/images/whatsapp.png';
 
-function Contactus(props: any) {
+function ContactUs() {
     return (
         <img src={whatsapp} alt="whatsapp"/>
     );
 }
 
-export default Contactus;
+export default ContactUs;

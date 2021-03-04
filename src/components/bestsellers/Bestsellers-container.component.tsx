@@ -1,6 +1,6 @@
 import React from 'react';
-import './Bestsellers.scss';
-import BestsellersItemCard from './Bestsellers-item-card';
+import './Bestsellers.style.scss';
+import BestsellersItemCard from './Bestsellers-item-card.component';
 import dummyImg1 from '../../assets/images/icecream-L.png';
 import dummyImg2 from '../../assets/images/homefood-L.png';
 

@@ -5,7 +5,7 @@ import easyreturns from '../../assets/images/easyreturns.png';
 import protection from '../../assets/images/protection.png';
 import support from '../../assets/images/support.png';
 import Storedetails from '../../components/storedetails/Storedetails';
-import Contactus from '../../components/contactus/Contactus';
+import ContactUs from '../contact-us/Contact-us';
 import FabButton from '../../components/fab-button/Fab-button';
 
 const NAV_ICON_LIST = [
@@ -43,7 +43,7 @@ function FooterContainer(props: any) {
                 </div>
                 <div className="hr-line w-100"></div>
                 <Storedetails/>
-                <Contactus />
+                <ContactUs />
                 <FabButton />
             </div>
     );
