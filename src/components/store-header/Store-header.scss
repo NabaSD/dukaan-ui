@@ -1,18 +1,23 @@
 .store-name {
-    font-size: 18px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 26px;
-    letter-spacing: normal;
-    color: #1a181e;
+  margin: 6px 0 2px 0;
+  font-family: 'GalanoGrotesqueMedium';
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: #1a181e;
 }
+
+
 .store-tier {
-    font-size: 12px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #17b31b;
+  font-family: 'GalanoGrotesqueMedium';
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: normal;
+  color: #17b31b;
 }

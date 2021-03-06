@@ -27,7 +27,7 @@ function ProductDetails(props: any) {
     const { product, index, length } = props;
     return (
     <div className="f-c-c-s product-details">
-        <div className="product-title">{product.productTitle} {index} {length-1}</div>
+        <div className="product-title">{product.productTitle}</div>
         <div className="unit">{`${product.unit} Unit`}</div>
         <div className="f-r-b-c w-100 price-and-action">
             <div className="f-r-s-c">
@@ -45,7 +45,7 @@ function ProductAction(props: any){
     return (
         <div>
             { product.isAvailable ? 
-                <div className="box f-r-c-c">
+                <div className={`${product.isAdded ? "add-num-box" : "box"} f-r-c-c`}>
                     {product.isAdded ? 
                         <img src={minus} alt="minus"/> : 
                         <div className="add-text">ADD</div>

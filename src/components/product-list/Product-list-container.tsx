@@ -140,17 +140,6 @@ const categoryWiseProducts = [
                 isAdded: false,
                 addedNumber: '',
                 imgSrc: kawlity
-            },
-            {
-                productTitle: 'Ice Cream Bowl',
-                unit: 1,
-                price: '₹209',
-                oldPrice: '₹399',
-                offer: '30% OFF',
-                isAvailable: true,
-                isAdded: false,
-                addedNumber: '',
-                imgSrc: creamBowl
             }
         ]
     },
@@ -161,8 +150,8 @@ const categoryWiseProducts = [
                 productTitle: 'Ice Cream Bowl',
                 unit: 1,
                 price: '₹209',
-                oldPrice: '₹399',
-                offer: '30% OFF',
+                oldPrice: '',
+                offer: '',
                 isAvailable: true,
                 isAdded: false,
                 addedNumber: '',

@@ -1,5 +1,5 @@
 .bestsellers-container {
-    margin: 16px 0px 16px 16px;
+    margin: 16px 0px 32px 16px;
     .list-v {
         max-width: 100%;
         overflow-x: scroll;
@@ -11,15 +11,16 @@
     position: relative;
     color: white;
     .caption {
-        position: absolute;
-        bottom: 10px;
-        left: 12px;
         font-size: 15px;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
-        line-height: 1.33;
+        line-height: 20px;
+        letter-spacing: 0;
         color: white;
+        position: absolute;
+        bottom: 10px;
+        left: 12px;
     }
 }
 

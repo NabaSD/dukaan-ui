@@ -2,14 +2,17 @@
     .list {
         margin: 16px;
         .counter {
+            font-size: 14px;
+            line-height: 14px;
+            letter-spacing: 0;
             width: 27px;
             height: 19px;
             margin: 3px 0 2px 4px;
             padding: 2px 6px 3px;
+            margin: 3px 0 0px 0px;
             border-radius: 4px;
             background-color: #146eb4;
             color: #ffffff;
-            font-size: 14px;
         }
     }
     .product-card {
@@ -65,37 +68,60 @@
                 }
             }
             .box {
-                padding: 8px 12px;
+                padding: 7px 12px;
                 border-radius: 4px;
                 border: solid 1px #146eb4;
-                .add-text{
+                .add-text {
                     font-size: 14px;
-                    text-align: center;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 12px;
+                    letter-spacing: 0;
                     color: #146eb4;
                     margin: 0px 6px;
                 }
+              }
+            .add-num-box {
+                padding: 0px 6px;
+                border-radius: 4px;
+                border: solid 1px #146eb4;
                 .add-num {
                     margin: 0px 6px;
-                    padding: 0px 6px;
-                    background-color: #146eb4;
+                    padding: 7px 7px 6px 9px;
+                    background-color: #e4f1f8;
                     color: #ffffff;
                     font-size: 14px;
-                  }
-              }
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: 0;
+                    text-align: center;
+                    color: #146eb4;
+                }
+            }
         }
         
     }
     .all-product {
-        margin: 18px 0 0 0;
+        margin: 28px 0 16px 0;
         padding: 5px 8px 5px 14px;
         border-radius: 4px;
-        background-color: #f2f2f2;
         max-width: fit-content;
+        padding: 4px 8px 4px 14px;
+        border-radius: 4px;
+        background-color: #f2f2f2;
         font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #4d4d4d;
     }
     .divider {
         border-bottom: 1px solid #e6e6e6;
-        padding-bottom: 15px;
+        padding-bottom: 18px;
     }
     
 }

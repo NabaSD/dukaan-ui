@@ -22,13 +22,17 @@
     margin-right: #{$space}px;
   }
 
-  .m-x-#{$space}{
+  .m-y-#{$space}{
     margin-top: #{$space}px;
     margin-bottom: #{$space}px;
   }
 
   .m-t-#{$space}{
     margin-top: #{$space}px;
+  }
+
+  .m-b-#{$space}{
+    margin-bottom: #{$space}px;
   }
 
   .m-#{$space}{
@@ -128,13 +132,13 @@ body {
   }
 
   .section-title {
-    color: #1a181e;
     margin: 0 4px 16px 0;
+    font-family: 'GalanoGrotesqueMedium';
     font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: normal;
     color: #1a181e;
   }
