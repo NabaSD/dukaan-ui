@@ -9,7 +9,7 @@ function Header() {
                 <div className="line-1">Store made with</div>
                 <img className="m-l-4" src={logo} alt="logo"></img>
             </div>
-            <strong><div className="text-decoration-underline line-1 ">DOWNLOAD APP</div></strong>
+            <div className="text-decoration-underline header-app-link">DOWNLOAD APP</div>
         </div>
     );
 }

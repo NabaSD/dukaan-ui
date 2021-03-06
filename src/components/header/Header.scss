@@ -3,7 +3,23 @@
     background-color: #146eb4;
     color: #FFFFFF;
     .line-1 {
+        font-family: 'GalanoGrotesqueMedium';
         font-size: 12px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
         line-height: 16px;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .header-app-link {
+        font-family: 'GalanoGrotesqueMedium';
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 16px;
+        letter-spacing: normal;
+        color: #ffffff;
     }
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './assets/fonts/GalanoGrotesqueRegular.ttf';
+import './assets/fonts/GalanoGrotesqueMedium.ttf';
 import './index.scss';
 import Home from './screens/home/Home';
 import reportWebVitals from './reportWebVitals';
